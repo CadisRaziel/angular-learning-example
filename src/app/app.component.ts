@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  userName: string = 'Variavel vindo do app.Components global para o component filho';
+  userData = {
+    compartilhar: "Compartilhando objetos",
+    entreComponents: "Feito dessa maneira"
+  }
+
   title = 'projeto-versao13';
 }
