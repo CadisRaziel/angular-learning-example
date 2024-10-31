@@ -1,0 +1,14 @@
+<div>
+   <div *ngIf="canShow">
+    Diretiva ngIF
+   </div>
+
+   <!-- if else abaixo -->
+   <h2 *ngIf="name === 'vitu'; else nameNotFound">o Nome é vitu IfElse</h2>
+   <ng-template #nameNotFound>
+    <div>
+        <h2>O nome nao foi encontrado</h2>
+    </div>
+   </ng-template>
+   
+</div>
