@@ -1,0 +1,19 @@
+<!-- usando diretiva 'ng' do angular para aplicar estilos -->
+<div [ngStyle]="{ 'font-size': '12px', 'color': 'red'}">
+    <p>Testando diretiva de estilos NgStyle</p>
+</div>
+
+<!-- usando variaveis do component com a diretiva 'ngStyle' -->
+<div [ngStyle]="{ 'font-size': size, color: color}">
+    <p>Testando diretiva de estilos NgStyle</p>
+</div>
+
+<!-- testando diretiva de class 'ngClass' -->
+<div [ngClass]="estilos">
+    <p>Testando diretiva de estilos NgClass</p>
+</div>
+
+<!-- testando diretiva de class 'ngClass' -->
+<div [ngClass]="classeSemArray">
+    <p>Testando diretiva de estilos NgClass</p>
+</div>
