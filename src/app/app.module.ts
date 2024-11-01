@@ -7,6 +7,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ComponentFilhoComponent } from './components/component-filho/component-filho.component';
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { CondicionaisComponent } from './components/condicionais/condicionais.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CondicionaisComponent } from './components/condicionais/condicionais.co
     FirstComponentComponent,
     ComponentFilhoComponent,
     DiretivasComponent,
-    CondicionaisComponent
+    CondicionaisComponent,
+    EventosComponent
   ],
   imports: [
     BrowserModule,
