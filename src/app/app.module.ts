@@ -10,6 +10,7 @@ import { CondicionaisComponent } from './components/condicionais/condicionais.co
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { MudarNumeroEventComponent } from './components/mudar-numero-event/mudar-numero-event.component';
+import { ListsForComponent } from './components/lists-for/lists-for.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MudarNumeroEventComponent } from './components/mudar-numero-event/mudar
     CondicionaisComponent,
     EventosComponent,
     EmitterComponent,
-    MudarNumeroEventComponent
+    MudarNumeroEventComponent,
+    ListsForComponent
   ],
   imports: [
     BrowserModule,
