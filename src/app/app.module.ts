@@ -8,6 +8,8 @@ import { ComponentFilhoComponent } from './components/component-filho/component-
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { CondicionaisComponent } from './components/condicionais/condicionais.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { MudarNumeroEventComponent } from './components/mudar-numero-event/mudar-numero-event.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EventosComponent } from './components/eventos/eventos.component';
     ComponentFilhoComponent,
     DiretivasComponent,
     CondicionaisComponent,
-    EventosComponent
+    EventosComponent,
+    EmitterComponent,
+    MudarNumeroEventComponent
   ],
   imports: [
     BrowserModule,
