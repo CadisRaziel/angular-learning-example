@@ -5,6 +5,15 @@
         Tipo: {{animal.type}}
     </li>
 </ul>
+<h2>Animais com interface:</h2>
+<ul>
+    <li *ngFor="let animal of animalsComInterface">
+        Nome: {{animal.name}} -
+        Tipo: {{animal.type}}
+        <button (click)="showAge(animal)">Show age</button>
+    </li>
+</ul>
+<h3>{{animalDetailsComInterface}}</h3>
 <h2>Pessoas:</h2>
 <ul>
     <li *ngFor="let pessoa of peooples">
