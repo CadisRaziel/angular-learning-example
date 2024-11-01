@@ -35,6 +35,7 @@ import { ListServiceComponentComponent } from './components/list-service-compone
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    AppRoutingModule, //-> Ativando nossas rotas
   ],
   providers: [],
   bootstrap: [AppComponent]
