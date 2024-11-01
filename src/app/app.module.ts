@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { MudarNumeroEventComponent } from './components/mudar-numero-event/mudar-numero-event.component';
 import { ListsForComponent } from './components/lists-for/lists-for.component';
 import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.
     EmitterComponent,
     MudarNumeroEventComponent,
     ListsForComponent,
-    PipeOperatorComponent
+    PipeOperatorComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
