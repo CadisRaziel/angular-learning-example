@@ -14,6 +14,7 @@ import { MudarNumeroEventComponent } from './components/mudar-numero-event/mudar
 import { ListsForComponent } from './components/lists-for/lists-for.component';
 import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ListServiceComponentComponent } from './components/list-service-component/list-service-component.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     MudarNumeroEventComponent,
     ListsForComponent,
     PipeOperatorComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    ListServiceComponentComponent
   ],
   imports: [
     BrowserModule,
