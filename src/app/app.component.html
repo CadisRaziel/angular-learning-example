@@ -1,38 +1,40 @@
 <!-- para importar components eu preciso passar o nome do selector do component e nao o nome da classe dele -->
 
-<nav>
+<!-- <nav>
     <div>
         <a routerLink="/">Home</a>
     </div>
     <div>
         <a routerLink="/list">Lists</a>
     </div>
-</nav>
+</nav> -->
 
 <div class="container">
     <div class="content-container">
-        <!-- <app-first-component></app-first-component> -->
+        <app-first-component></app-first-component>
 
         <!-- compartilhando dados entre components -->
-        <!-- <app-component-filho [nameComponentFilho]="userName" [userDataComponentFilho]="userData"></app-component-filho> -->
+        <app-component-filho [nameComponentFilho]="userName" [userDataComponentFilho]="userData"></app-component-filho>
 
-        <!-- <app-diretivas></app-diretivas> -->
+        <app-diretivas></app-diretivas>
 
-        <!-- <app-condicionais></app-condicionais> -->
+        <app-condicionais></app-condicionais>
 
-        <!-- <app-eventos></app-eventos> -->
+        <app-eventos></app-eventos>
 
-        <!-- <app-emitter></app-emitter> -->
+        <app-emitter></app-emitter>
 
-        <!-- <app-lists-for></app-lists-for> -->
+        <app-lists-for></app-lists-for>
 
-        <!-- <app-pipe-operator></app-pipe-operator> -->
+        <app-pipe-operator></app-pipe-operator>
 
-        <!-- <app-two-way-binding></app-two-way-binding> -->
+        <app-two-way-binding></app-two-way-binding>
 
-        <!-- <app-list-service-component></app-list-service-component> -->
+        <app-list-service-component></app-list-service-component>
+
+        <app-list-http></app-list-http>
 
         <!-- se eu utilizar sistema de rotas(o que todo projeto no mundo tem) eu vou só importar esse cara aqui abaixo -->
-        <router-outlet></router-outlet>
+        <!-- <router-outlet></router-outlet> -->
     </div>
 </div>

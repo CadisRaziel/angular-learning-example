@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { ListsForComponent } from './components/lists-for/lists-for.component';
 import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { ListServiceComponentComponent } from './components/list-service-component/list-service-component.component';
+import { ListHttpComponent } from './components/list-http/list-http.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +31,15 @@ import { ListServiceComponentComponent } from './components/list-service-compone
     ListsForComponent,
     PipeOperatorComponent,
     TwoWayBindingComponent,
-    ListServiceComponentComponent
+    ListServiceComponentComponent,
+    ListHttpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     AppRoutingModule, //-> Ativando nossas rotas
+    HttpClientModule, //-> Ativando o http do angular
   ],
   providers: [],
   bootstrap: [AppComponent]
